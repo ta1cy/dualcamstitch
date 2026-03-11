@@ -97,11 +97,11 @@ make
 
 ### Linux (CPU Baseline)
 - Uses OpenCV's built-in ORB detector and BFMatcher with `knnMatch`
-- Lowe's ratio test (0.75) filters ambiguous matches
+- Lowe's ratio test (currently set at 0.75) filters ambiguous matches
 - Serves as the reference implementation for validating CUDA results
 
 ### CUDA Version
-- Custom CUDA ORB implementation based on [CUDA-ORB](https://github.com/Accustomer/CUDA-ORB)
+- Custom CUDA ORB implementation
 - FAST keypoint detection with Harris corner scoring, multi-octave pyramid
 - BRIEF descriptor computation with rotation invariance
 - Brute-force Hamming matching with parallel reduction across warps
