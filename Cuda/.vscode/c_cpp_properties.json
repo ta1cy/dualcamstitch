@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${fileDirname}",
+                "${fileDirname}/..",
+                "/home/josephzh/Documents/VSC_deployment/113D/C++/Cuda",
+                "/usr/local/cuda/include",
+                "/usr/include/opencv4"
+            ],
+            "defines": [
+                "__CUDACC__"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "compileCommands": "/home/josephzh/Documents/VSC_deployment/113D/C++/Cuda/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
